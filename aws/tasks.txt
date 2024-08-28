@@ -1,0 +1,87 @@
+AIMS 6th March:
+
+API Endpoints Python Main ~
+
+- updateIP (DONE)
+- updateBestTime (DONE)
+- leaderBoard (DONE)
+- selectCar (DONE)
+- playerReady (DONE)
+- changeStatus (DONE)
+- getAllCars (DONE)
+
+API Endpoints Raspberry Pi Main:
+- raceStart (DONE)
+- raceLap (DONE)
+- userPosition (DONE)
+
+Race Table:
+- raspberry pi sends lap time to column starttime, lap1, lap2, endtime, receives the current lap count
+- when user selects car, they create new instance in table of car_name, username, starttime, lap1, lap2, endtime and besttime
+- besttime is calculated in the very end by finding differences
+- determine position api call to position column every 15 seconds
+- starttime (init time sent to all players)
+- lap1, lap2, endtime (sent alongside/respective to the lapcounter segment in the raspberry pi python race script section)
+- we determine the position in the same api call as sending the time to lap1, lap2 and endtime (determine via how many existing times have been filled/ non 0)
+- CURRENTLY no set way to determine for game over, just quitgame option which record besttime if available, delete the user from the race table
+
+
+AIMS 7th March:
+- racerBestTime, this is to be called in the raspberry pi, after the car passes the finish line for its last lap, it will performm this best time calcualtion
+- should work by taking the integers from starttime, lap1, lap2, endtime representing timestamps and finding their differences, storing the fastest lap in besttime column as an integer
+- endgame() is called after all cars pass the line, the updatebesttime for each user is called using the username and besttime, then we delete the table/remove all items from the table
+
+- client side (game end detection) when after endgame has been called on the raspberry pi, the get positions should throw an error as nothing to read in the table, this will signify end of the game,
+- change the availability of the car back to true and send user back to play/car select page.
+
+
+- rework leaderboard.js for string besttime (DONE)
+- rework updateBestTime.js for string besttime (DONE)
+- finish racerBestTime.js (DONE)
+- create endGame.js (DONE)
+- create getUserBestTime.js (DONE)
+- updateIP should now include a new parameter for ip type where we can either write the IP to ip_tcp or ip_web (DONE)
+
+AIMS 8th March:
+
+(LOCAL USER MAIN SPEC) ~ DONE
+- functional main for the local user, it should include, login, registration or quit program
+- if the user logs in they have the option to view leaderboard or then play or logout
+- if user selects play, they get shown all available cars and we take in an input on which car they want, if they type EXIT then we quit the game play page
+- if the user types a valid car name, then they get shown the IP address of the car and an input which says type 1 when ready
+- when the user types 1 to "ready" we call the /playerReady api endpoint and the car + user is registered on the racer-table
+- we then call the getBestTime to check the user's current best time and store it
+- from that point onwards, we call the position api every 5 seconds to check for position
+- when the position api calls to an empty table, this means that the game has ended, we return the final position of the racer, as well as whether the best time has changed
+- if the user's best time has changed we return this as new personal record: (f"{besttime}), otherwise we don't display anything
+- print thanks for playing and reset the availability of the car
+- send the user back to the page to view leaderboard or play or logout
+
+(RASPBERRY PI MAIN SPEC)
+- NOT FINALISED
+- We have 4 active QR codes and the python script is going to be infinitely looped
+- It is always waiting for a start QR, this will be scanned and bring it to the next stage of the code (game sequence)
+- We initialise, a lap_counter to be 0
+- When start QR is scanned, the raspberry pi will now be waiting for the first car to cross the line and it will record this and send the time stamp to AWS using /raceStart
+- the lap_counter is now iterated to 1 and the raspberry pi is now waiting to scan car1 and car2 again when they cross the line
+- When car1 or car2 completes their first lap, their QRs r scanned, there should be an if statement for when lap_counter == 1, it now calls raceLap with the name of csv (car1/car2) and sends the time stamp
+- the AWS api endpoint we are using is called raceLap, it takes in input parameters of (car_name, lap_time, current_lap) where current lap is "lap{lap_counter}"
+- To prevent repetitive uploading, there should be a list of csv names showing which cars have already passed this lap, if the car name is inside that lap, we dont upload to AWS
+- When the length of the list of the car names is equal to 2 (in this case max of 2 cars) we then increment the lap counter by 1 and repeat this
+- When the lap counter hits 3, we run the same thing again, but now instead of current_lap = "lap{lap_counter}" it is actually current_lap = "endtime"
+- We also run a second api called racerBestTime to calculate and  record the best time for the user on AWS
+- When the list of cars that pass after lap counter is  full, we iterate lap_counter to 4
+- When lap_counter hits 4, we run the endGame api, which clears the DB and ends the game
+- We then have to scan the "reset" QR code which brings us back to the waiting for start QR stage
+
+# IDEA BRAINSTORM
+# Currently, the openCV code takes in the ESP32 Camera server IP from the local computer and uses it to access a URL to find an image of the camera feed
+# This camera feed is then processed and it displays the output feed with whether it is green or red
+# The problem is that after this process, theres no way for you to send the information back to the local computer
+# 2 POSSIBLE SOLUTIONS
+# 1. Add an additional column to the AWS table of the car with parameters of boost, it will be boolean of true or false, design the API endpoints and call them both here and in mock-controller.py
+# 2. Open a 3rd tcp-client-server connection and use this to send information to the local computer (DECIDED AGAINST)
+
+# FOR AWS APPROACH
+# Endpoint for changeBoost(), set true or false, uses car name for parameter (DONE)
+# Create a getBoostStatus() endpoint, uses car name for parameter (DONE)
