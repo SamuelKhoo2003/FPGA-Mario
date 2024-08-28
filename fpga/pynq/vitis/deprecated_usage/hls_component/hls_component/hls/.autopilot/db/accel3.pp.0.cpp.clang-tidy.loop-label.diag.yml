@@ -1,0 +1,1390 @@
+---
+MainSourceFile:  'W:/vitis_workspace/ip24/att4/hls_component/hls_component/hls/.autopilot/db/accel3.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          59811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          287554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          288022
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          288491
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          572336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1223137
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_321_1:  '
+    FileOffset:      321
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1223335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_321_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_336_1:  '
+    FileOffset:      336
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1223569
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_336_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_351_1:  '
+    FileOffset:      351
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1223799
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_351_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_366_1:  '
+    FileOffset:      366
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1224033
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_366_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_381_1:  '
+    FileOffset:      381
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1224263
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_381_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_396_1:  '
+    FileOffset:      396
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1224497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_396_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_411_1:  '
+    FileOffset:      411
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1224727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_411_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_426_1:  '
+    FileOffset:      426
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1224961
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_426_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_1:  '
+    FileOffset:      511
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1226552
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_719_1:  '
+    FileOffset:      719
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1232172
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_719_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_720_2:  '
+    FileOffset:      720
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1232213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_720_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_721_3:  '
+    FileOffset:      721
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1232262
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_721_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_723_4:  '
+    FileOffset:      723
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1232345
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_723_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_761_1:  '
+    FileOffset:      761
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1233567
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_761_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_762_2:  '
+    FileOffset:      762
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1233608
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_762_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_3:  '
+    FileOffset:      764
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1233697
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_765_4:  '
+    FileOffset:      765
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1233771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_765_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_819_1:  '
+    FileOffset:      819
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1235533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_819_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_820_2:  '
+    FileOffset:      820
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1235574
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_820_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_828_3:  '
+    FileOffset:      828
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1236001
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_828_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      949
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1021_1:  '
+    FileOffset:      1021
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1243616
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1021_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1429_1:  '
+    FileOffset:      1429
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1259184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1429_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1457_1:  '
+    FileOffset:      1457
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1260262
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1457_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1487_1:  '
+    FileOffset:      1487
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1261473
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1487_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1517_1:  '
+    FileOffset:      1517
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_structs.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1262660
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1517_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_1:  '
+    FileOffset:      122
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1279269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_126_2:  '
+    FileOffset:      126
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1279320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_126_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1279644
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_2:  '
+    FileOffset:      170
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1279695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1280016
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_214_2:  '
+    FileOffset:      214
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1280071
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_214_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_1:  '
+    FileOffset:      254
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1280390
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_2:  '
+    FileOffset:      258
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1280445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_1:  '
+    FileOffset:      330
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1281133
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_1:  '
+    FileOffset:      435
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1281932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_1P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      711
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_1P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      716
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      721
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      726
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      731
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      736
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_T2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      741
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_T2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      746
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_824_1:  '
+    FileOffset:      824
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1286751
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_824_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_867_1:  '
+    FileOffset:      867
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1287228
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_867_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_968_1:  '
+    FileOffset:      968
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_video_mem.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1288506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_968_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1290787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_58_1:  '
+    FileOffset:      58
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1291363
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_58_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_86_1:  '
+    FileOffset:      86
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1292130
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_86_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_1:  '
+    FileOffset:      119
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1293156
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1294163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_181_1:  '
+    FileOffset:      181
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1294926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_181_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_205_1:  '
+    FileOffset:      205
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1295580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_205_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_228_1:  '
+    FileOffset:      228
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1296293
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_228_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_263_1:  '
+    FileOffset:      263
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1297163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_263_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_2:  '
+    FileOffset:      265
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1297223
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1299283
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_397_1:  '
+    FileOffset:      397
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1302440
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_397_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_468_1:  '
+    FileOffset:      468
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1304278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_468_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_2:  '
+    FileOffset:      473
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1304394
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_499_1:  '
+    FileOffset:      499
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1305051
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_499_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_623_1:  '
+    FileOffset:      623
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1309204
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_623_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_737_1:  '
+    FileOffset:      737
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1313892
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_737_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_788_1:  '
+    FileOffset:      788
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\common\xf_utility.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1315072
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_788_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_1:  '
+    FileOffset:      127
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_utils.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1318889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_utils.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1319234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_1:  '
+    FileOffset:      170
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_utils.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1319827
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_1:  '
+    FileOffset:      189
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_utils.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1320226
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_207_1:  '
+    FileOffset:      207
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_utils.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1320516
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_46_1:  '
+    FileOffset:      46
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1327741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_46_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_2:  '
+    FileOffset:      51
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1327853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_1:  '
+    FileOffset:      110
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1329741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1332490
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_1:  '
+    FileOffset:      301
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1335525
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_393_1:  '
+    FileOffset:      393
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1338292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_393_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_588_1:  '
+    FileOffset:      588
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color_1.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1344410
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_588_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1368013
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_2:  '
+    FileOffset:      48
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1368125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_1:  '
+    FileOffset:      111
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1370049
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_205_1:  '
+    FileOffset:      205
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1373721
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_205_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1377091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_385_1:  '
+    FileOffset:      385
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1379891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_385_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_467_1:  '
+    FileOffset:      467
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1382510
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_467_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_546_1:  '
+    FileOffset:      546
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1385356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_546_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_657_1:  '
+    FileOffset:      657
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1389000
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_657_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_760_1:  '
+    FileOffset:      760
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1392116
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_760_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_833_1:  '
+    FileOffset:      833
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1394763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_833_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_853_2:  '
+    FileOffset:      853
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1395860
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_853_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_913_1:  '
+    FileOffset:      913
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1397909
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_913_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_995_1:  '
+    FileOffset:      995
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1400619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_995_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1124_1:  '
+    FileOffset:      1124
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1404727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1124_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1234_1:  '
+    FileOffset:      1234
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1408319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1234_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_2:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1408936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1306_1:  '
+    FileOffset:      1306
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1410947
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1306_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1530_1:  '
+    FileOffset:      1530
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1413854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1530_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1658_1:  '
+    FileOffset:      1658
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1417952
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1658_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1784_1:  '
+    FileOffset:      1784
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1421006
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1799_2:  '
+    FileOffset:      1799
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1421633
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1799_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1850_1:  '
+    FileOffset:      1850
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1423266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1850_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1942_1:  '
+    FileOffset:      1942
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1426464
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1942_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2027_1:  '
+    FileOffset:      2027
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1429250
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2027_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2096_1:  '
+    FileOffset:      2096
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1431516
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2096_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2167_1:  '
+    FileOffset:      2167
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1434011
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2248_1:  '
+    FileOffset:      2248
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1436843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2325_1:  '
+    FileOffset:      2325
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1439445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2393_1:  '
+    FileOffset:      2393
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1441675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2393_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2458_1:  '
+    FileOffset:      2458
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1443705
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2458_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2538_1:  '
+    FileOffset:      2538
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1446304
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2538_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2618_1:  '
+    FileOffset:      2618
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1448907
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2618_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_4740_1:  '
+    FileOffset:      4740
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1525123
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_4740_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_4911_1:  '
+    FileOffset:      4911
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1530774
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_4911_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5071_1:  '
+    FileOffset:      5071
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1535793
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5071_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5233_1:  '
+    FileOffset:      5233
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1540832
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5395_1:  '
+    FileOffset:      5395
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1545882
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5395_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5514_1:  '
+    FileOffset:      5514
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1549865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5514_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5590_1:  '
+    FileOffset:      5590
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1552296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5663_1:  '
+    FileOffset:      5663
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1554584
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5663_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5740_1:  '
+    FileOffset:      5740
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1557096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5740_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5824_1:  '
+    FileOffset:      5824
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1559818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5824_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5914_1:  '
+    FileOffset:      5914
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1562867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5914_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_5999_1:  '
+    FileOffset:      5999
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1565784
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_5999_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6084_1:  '
+    FileOffset:      6084
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1568680
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6084_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6168_1:  '
+    FileOffset:      6168
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1571571
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6168_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6249_1:  '
+    FileOffset:      6249
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1574442
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6331_1:  '
+    FileOffset:      6331
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1577322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6331_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6411_1:  '
+    FileOffset:      6411
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1580234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6411_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6500_1:  '
+    FileOffset:      6500
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1583403
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6500_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6633_1:  '
+    FileOffset:      6633
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1587810
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6633_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6784_1:  '
+    FileOffset:      6784
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1592352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_6898_1:  '
+    FileOffset:      6898
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1596435
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_6898_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7011_1:  '
+    FileOffset:      7011
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1600424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7011_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7124_1:  '
+    FileOffset:      7124
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1604293
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7124_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7237_1:  '
+    FileOffset:      7237
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1608090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7237_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7363_1:  '
+    FileOffset:      7363
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1611930
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7363_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7461_1:  '
+    FileOffset:      7461
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1615156
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7461_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7562_1:  '
+    FileOffset:      7562
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1618268
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7562_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7581_2:  '
+    FileOffset:      7581
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1619198
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7581_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7685_1:  '
+    FileOffset:      7685
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1622100
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7685_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7704_2:  '
+    FileOffset:      7704
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1623022
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7704_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7807_1:  '
+    FileOffset:      7807
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1625932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7807_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7826_2:  '
+    FileOffset:      7826
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1626854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7826_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7929_1:  '
+    FileOffset:      7929
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1629755
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7929_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7948_2:  '
+    FileOffset:      7948
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1630677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7948_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_8053_1:  '
+    FileOffset:      8053
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1633640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_8053_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_8180_1:  '
+    FileOffset:      8180
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1637480
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_8180_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_8277_1:  '
+    FileOffset:      8277
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1640635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_8277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_9022_1:  '
+    FileOffset:      9022
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1664321
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_9022_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_9156_1:  '
+    FileOffset:      9156
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_cvt_color.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1668115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_9156_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_bgr2hsv.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1677969
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_2:  '
+    FileOffset:      140
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_bgr2hsv.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1678052
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_3:  '
+    FileOffset:      147
+    FilePath:        'C:\Xilinx\Vitis_Libraries\vision\L1\include\imgproc\xf_bgr2hsv.hpp'
+    Replacements:    
+      - FilePath:        'W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp'
+        Offset:          1678211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_3: '
+...

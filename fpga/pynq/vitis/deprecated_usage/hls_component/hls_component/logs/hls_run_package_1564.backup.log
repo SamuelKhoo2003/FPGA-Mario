@@ -1,0 +1,68 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output W:/vitis_workspace/ip24/att4/hls_component/hls_component\hls_component.hlsrun_package_summary, at 03/11/24 23:39:54
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir W:/vitis_workspace/ip24/att4/hls_component/hls_component -config W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg -cmdlineconfig W:/vitis_workspace/ip24/att4/hls_component/hls_component/hls/config.cmdline
+ECHO is off.
+ECHO is off.
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Kevin Lau' on host 'kvl-tuf' (Windows NT_amd64 version 6.2) on Mon Mar 11 23:39:57 +0000 2024
+INFO: [HLS 200-10] In directory 'W:/vitis_workspace/ip24/att4/hls_component'
+INFO: [HLS 200-1909] Reading HLS ini file W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file W:/vitis_workspace/ip24/att4/hls_component/hls_component/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir W:/vitis_workspace/ip24/att4/hls_component/hls_component 
+INFO: [HLS 200-1510] Running: open_project W:/vitis_workspace/ip24/att4/hls_component/hls_component -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=accel.cpp' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file 'W:/vitis_workspace/ip24/att4/hls_component/accel.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=accel2.cpp' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file 'W:/vitis_workspace/ip24/att4/hls_component/accel2.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.cflags=-I C:/Xilinx/Vitis_Libraries/vision/L2/examples/cvtcolor/config -IC:/Xilinx/Vitis_Libraries/vision/L1/include -IW:/vitis_workspace/ip24/att4/hls_component/include -I ./ -D__SDSVHLS__ -std=c++14' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'syn.csimflags=-I C:/Xilinx/Vitis_Libraries/vision/L2/examples/cvtcolor/config -IC:/Xilinx/Vitis_Libraries/vision/L1/include -IW:/vitis_workspace/ip24/att4/hls_component/include -I ./ -D__SDSVHLS__ -std=c++14' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'syn.top=cvtcolor' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'cosim.argv=C:/Xilinx/Vitis_Libraries/vision/data/128x128.png' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'cosim.ldflags=-L C:/opencv/build/install/x64/mingw/lib -lopencv_imgcodecs490 -lopencv_imgproc490 -lopencv_calib3d490 -lopencv_core490 -lopencv_highgui490 -lopencv_flann490 -lopencv_features2d490' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'csim.argv=C:/Xilinx/Vitis_Libraries/vision/data/128x128.png' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'csim.ldflags=-L C:/opencv/build/install/x64/mingw/lib -lopencv_imgcodecs490 -lopencv_imgproc490 -lopencv_calib3d490 -lopencv_core490 -lopencv_highgui490 -lopencv_flann490 -lopencv_features2d490' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at W:/vitis_workspace/ip24/att4/hls_component/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini W:/vitis_workspace/ip24/att4/hls_component/hls_component/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file W:/vitis_workspace/ip24/att4/hls_component/hls_component/hls/config.cmdline
+INFO: [HLS 200-1510] Running: export_design -flow none 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 498.363 ; gain = 177.867
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 11 23:40:15 2024...
+INFO: [HLS 200-802] Generated output file hls_component/cvtcolor.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 16.045 seconds; current allocated memory: 10.973 MB.
+INFO: [HLS 200-1510] Running: close_project 
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 18.826 seconds; peak allocated memory: 132.555 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Mon Mar 11 23:40:15 2024...
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 23s

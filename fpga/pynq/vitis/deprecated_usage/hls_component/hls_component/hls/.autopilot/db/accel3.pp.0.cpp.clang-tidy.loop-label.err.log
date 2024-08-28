@@ -1,0 +1,4 @@
+1 warning and 9 errors generated.
+Error while processing W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp.
+clang-tidy applied 149 of 149 suggested fixes.
+Suppressed 1 warnings (1 with check filters).

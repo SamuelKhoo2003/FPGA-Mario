@@ -1,0 +1,67 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/6b2b/hdl" --include "../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog" --include "../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ip/design_1_cvtcolor_og_0_0/drivers/cvtcolor_og_v1_0/src" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_addrbound.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Array2xfMat_512_16_1080_1920_1_2_s.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Axi2AxiStream.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Axi2AxiStream_Pipeline_VITIS_LOOP_1021_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Axi2Mat.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_AxiStream2Axi.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_AxiStream2Axi_Pipeline_MMIterOutLoop2.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_AxiStream2Mat.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_AxiStream2MatStream_2_Pipeline_MMIterInLoopRow.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_AxiStream2MatStream_2_s.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_bgr2gray_16_0_1080_1920_1_2_2_Pipeline_columnloop.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_bgr2gray_16_0_1080_1920_1_2_2_s.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Block_entry1_proc.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_control_s_axi.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_entry_proc.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_entry_proc3.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_entry_proc4.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_entry_proc5.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w4_d2_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w4_d2_S_x.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w8_d2_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w16_d2_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w16_d3_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w24_d2_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w32_d2_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w32_d2_S_x.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w32_d3_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w32_d3_S_x.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w32_d4_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w64_d4_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w64_d5_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w512_d2_S.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_fifo_w512_d2_S_x.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_flow_control_loop_pipe_sequential_init.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_gmem1_m_axi.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_gmem2_m_axi.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_hls_deadlock_detection_unit.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_last_blk_pxl_width.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_last_blk_pxl_width_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_mac_muladd_8ns_12ns_22ns_22_4_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_mac_muladd_8ns_15ns_22ns_23_4_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Mat2Axi.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Mat2Axi_Block_entry24_proc.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_Mat2AxiStream.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_MatStream2AxiStream_2_Pipeline_MMIterOutRow_MMIterOutCol.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_MatStream2AxiStream_2_s.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_mul_8ns_15ns_22_1_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_mul_16ns_16ns_32_1_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_mul_16ns_16ns_32_3_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_mul_32s_32s_32_2_1.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_start_for_AxiStream2Mat_U0.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_start_for_bgr2gray_16_0_1080_1920_1_2_2_U0.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og_xfMat2Array_512_0_1080_1920_1_2_1_s.v" \
+"../../../../cvtcolor-gray-8.gen/sources_1/bd/design_1/ipshared/5be3/hdl/verilog/cvtcolor_og.v" \
+"../../../bd/design_1/ip/design_1_cvtcolor_og_0_0/sim/design_1_cvtcolor_og_0_0.v" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/ip/design_1_auto_ds_0/sim/design_1_auto_ds_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

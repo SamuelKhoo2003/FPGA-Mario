@@ -1,0 +1,73 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Mar 20 06:37:19 2024
+| Host         : KVL-TUF running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 7
++--------+----------+------------------------+------------+
+| Rule   | Severity | Description            | Violations |
++--------+----------+------------------------+------------+
+| DPIP-1 | Warning  | Input pipelining       | 1          |
+| DPOP-1 | Warning  | PREG Output pipelining | 1          |
+| DPOP-2 | Warning  | MREG Output pipelining | 5          |
++--------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/bgr2gray_16_0_1080_1920_1_2_2_U0/grp_bgr2gray_16_0_1080_1920_1_2_2_Pipeline_columnloop_fu_64/mac_muladd_8ns_15ns_22ns_23_4_1_U64/cvtcolor_og_mac_muladd_8ns_15ns_22ns_23_4_1_DSP48_1_U/p_reg_reg input design_1_i/cvtcolor_og_0/inst/bgr2gray_16_0_1080_1920_1_2_2_U0/grp_bgr2gray_16_0_1080_1920_1_2_2_Pipeline_columnloop_fu_64/mac_muladd_8ns_15ns_22ns_23_4_1_U64/cvtcolor_og_mac_muladd_8ns_15ns_22ns_23_4_1_DSP48_1_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/tmp_product__0 output design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/tmp_product__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/buff0_reg multiplier stage design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/tmp_product multiplier stage design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/tmp_product__0 multiplier stage design_1_i/cvtcolor_og_0/inst/Array2xfMat_512_16_1080_1920_1_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_32s_32_2_1_U32/tmp_product__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/xfMat2Array_512_0_1080_1920_1_2_1_U0/grp_Mat2Axi_fu_60/Mat2AxiStream_U0/MatStream2AxiStream_2_U0/bound_reg_169_reg multiplier stage design_1_i/cvtcolor_og_0/inst/xfMat2Array_512_0_1080_1920_1_2_1_U0/grp_Mat2Axi_fu_60/Mat2AxiStream_U0/MatStream2AxiStream_2_U0/bound_reg_169_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP design_1_i/cvtcolor_og_0/inst/xfMat2Array_512_0_1080_1920_1_2_1_U0/grp_Mat2Axi_fu_60/addrbound_U0/mul_16ns_16ns_32_3_1_U77/buff0_reg multiplier stage design_1_i/cvtcolor_og_0/inst/xfMat2Array_512_0_1080_1920_1_2_1_U0/grp_Mat2Axi_fu_60/addrbound_U0/mul_16ns_16ns_32_3_1_U77/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

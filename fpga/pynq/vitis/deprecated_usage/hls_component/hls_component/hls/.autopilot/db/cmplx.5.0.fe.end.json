@@ -1,0 +1,293 @@
+{
+    "1": {
+        "name": "Mat2Axi",
+        "file": "xf_structs.hpp",
+        "fileloc": "1405",
+        "instructions": "20",
+        "total_instructions": "196",
+        "calls": "5 7 17 2 10",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "Mat2AxiStream",
+        "file": "xf_structs.hpp",
+        "fileloc": "1345",
+        "instructions": "16",
+        "total_instructions": "121",
+        "calls": "18 12 9",
+        "basicblocks": "1"
+    },
+    "3": {
+        "name": "xfMat2Array<512, 0, 1080, 1920, 1, 2, 1>",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_utility.hpp",
+        "fileloc": "826",
+        "instructions": "9",
+        "total_instructions": "205",
+        "calls": "1",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "MatStream2AxiStream<2>_Pipeline_MMIterOutRow_MMIterOutCol",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1289",
+        "instructions": "72",
+        "total_instructions": "72",
+        "calls": "",
+        "basicblocks": "9",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "9"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "entry_proc4",
+        "file": "xf_structs.hpp",
+        "fileloc": "0",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "entry_proc3",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "0",
+        "instructions": "9",
+        "total_instructions": "9",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "7": {
+        "name": "addrbound",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1421",
+        "instructions": "14",
+        "total_instructions": "14",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "8": {
+        "name": "Axi2Mat",
+        "file": "xf_structs.hpp",
+        "fileloc": "1135",
+        "instructions": "18",
+        "total_instructions": "246",
+        "calls": "20 22",
+        "basicblocks": "1"
+    },
+    "9": {
+        "name": "MatStream2AxiStream<2>",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1287",
+        "instructions": "24",
+        "total_instructions": "96",
+        "calls": "4",
+        "basicblocks": "3",
+        "loads": {
+            "L": "2"
+        }
+    },
+    "10": {
+        "name": "AxiStream2Axi",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1373",
+        "instructions": "14",
+        "total_instructions": "35",
+        "calls": "23",
+        "basicblocks": "1"
+    },
+    "11": {
+        "name": "bgr2gray<16, 0, 1080, 1920, 1, 2, 2>",
+        "file": "xf_cvt_color.hpp",
+        "fileloc": "5610",
+        "instructions": "22",
+        "total_instructions": "54",
+        "calls": "15",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "12": {
+        "name": "last_blk_pxl_width.1",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "933",
+        "instructions": "2",
+        "total_instructions": "2",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "13": {
+        "name": "last_blk_pxl_width",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "933",
+        "instructions": "2",
+        "total_instructions": "2",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "14": {
+        "name": "Array2xfMat<512, 16, 1080, 1920, 1, 2>",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_utility.hpp",
+        "fileloc": "836",
+        "instructions": "11",
+        "total_instructions": "257",
+        "calls": "8",
+        "basicblocks": "1"
+    },
+    "15": {
+        "name": "bgr2gray<16, 0, 1080, 1920, 1, 2, 2>_Pipeline_columnloop",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\imgproc\/xf_cvt_color.hpp",
+        "fileloc": "5622",
+        "instructions": "32",
+        "total_instructions": "32",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "16": {
+        "name": "entry_proc5",
+        "file": "accel3.cpp",
+        "fileloc": "0",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "17": {
+        "name": "Mat2Axi_Block_entry24_proc",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1421",
+        "instructions": "2",
+        "total_instructions": "2",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "18": {
+        "name": "entry_proc",
+        "file": "xf_structs.hpp",
+        "fileloc": "0",
+        "instructions": "7",
+        "total_instructions": "7",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "19": {
+        "name": "Axi2AxiStream_Pipeline_VITIS_LOOP_1021_1",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1155",
+        "instructions": "21",
+        "total_instructions": "21",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "20": {
+        "name": "Axi2AxiStream",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1155",
+        "instructions": "32",
+        "total_instructions": "53",
+        "calls": "19",
+        "basicblocks": "1"
+    },
+    "21": {
+        "name": "Block_entry1_proc",
+        "file": "W:\/vitis_workspace\/ip24\/att4\/hls_component\/accel3.cpp",
+        "fileloc": "12",
+        "instructions": "7",
+        "total_instructions": "7",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "22": {
+        "name": "AxiStream2Mat",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1115",
+        "instructions": "16",
+        "total_instructions": "175",
+        "calls": "6 13 25",
+        "basicblocks": "1"
+    },
+    "23": {
+        "name": "AxiStream2Axi_Pipeline_MMIterOutLoop2",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1376",
+        "instructions": "21",
+        "total_instructions": "21",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "24": {
+        "name": "AxiStream2MatStream<2>_Pipeline_MMIterInLoopRow",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1048",
+        "instructions": "133",
+        "total_instructions": "133",
+        "calls": "",
+        "basicblocks": "9",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "9"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "25": {
+        "name": "AxiStream2MatStream<2>",
+        "file": "C:\/Xilinx\/Vitis_Libraries\/vision\/L1\/include\\common\/xf_structs.hpp",
+        "fileloc": "1052",
+        "instructions": "15",
+        "total_instructions": "148",
+        "calls": "24",
+        "basicblocks": "1"
+    },
+    "0": {
+        "name": "cvtcolor_og",
+        "file": "accel3.cpp",
+        "fileloc": "3",
+        "instructions": "46",
+        "total_instructions": "573",
+        "calls": "16 21 14 11 3",
+        "basicblocks": "1"
+    }
+}

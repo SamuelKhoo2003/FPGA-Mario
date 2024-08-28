@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.518195",
+   "Default View_TopLeft":"-193,-558",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1550 -y -200 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1550 -y -170 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 610 -y -150 -defaultsOSRD
+preplace inst threshold_accel_0 -pg 1 -lvl 1 -x 210 -y -170 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -x 1370 -y -50 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 1020 -y -40 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1370 -y -420 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 40 -80 390 -40 830 -180 1220
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 820 -110n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 30 -30 NJ -30 850J -150 1230
+preplace netloc axi_mem_intercon_M00_AXI 1 1 4 400 110 NJ 110 NJ 110 1510
+preplace netloc processing_system7_0_DDR 1 2 3 NJ -190 1190 -200 N
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -170 1190 100 1530
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 820J -270 1210
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 30 -260 NJ -260 NJ -260 NJ -260 1510
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 5 20 120 NJ 120 NJ 120 NJ 120 1520
+preplace netloc threshold_accel_0_m_axi_gmem1 1 1 3 380J -250 NJ -250 1210
+preplace netloc threshold_accel_0_m_axi_gmem2 1 1 3 380J -50 840J -140 1200
+levelinfo -pg 1 -10 210 610 1020 1370 1550
+pagesize -pg 1 -db -bbox -sgen -10 -560 1660 200
+"
+}
+{
+   "da_axi4_cnt":"14",
+   "da_ps7_cnt":"3"
+}

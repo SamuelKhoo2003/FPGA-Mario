@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Mar 20 06:31:16 2024
+# Process ID: 15244
+# Current directory: W:/vivado/cvtcolor-gray-8/cvtcolor-gray-8.runs/design_1_xbar_0_synth_1
+# Command line: vivado.exe -log design_1_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
+# Log file: W:/vivado/cvtcolor-gray-8/cvtcolor-gray-8.runs/design_1_xbar_0_synth_1/design_1_xbar_0.vds
+# Journal file: W:/vivado/cvtcolor-gray-8/cvtcolor-gray-8.runs/design_1_xbar_0_synth_1\vivado.jou
+# Running On: KVL-TUF, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 25446 MB
+#-----------------------------------------------------------
+source design_1_xbar_0.tcl -notrace

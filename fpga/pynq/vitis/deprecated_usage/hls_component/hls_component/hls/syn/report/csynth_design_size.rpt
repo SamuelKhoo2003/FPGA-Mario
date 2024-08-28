@@ -1,0 +1,92 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                        | Instructions | Description                                                                            |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                             | 6,383        | After all functions are compiled and linked into a single design                       |
+|               |                             |              |                                                                                        |
+| Unroll/Inline |                             |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                  |   544        | user unroll pragmas are applied                                                        |
+|               | (2) simplification          |   430        | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                  |   439        | user inline pragmas are applied                                                        |
+|               | (4) simplification          |   395        | simplification of applied user inline pragmas                                          |
+|               |                             |              |                                                                                        |
+| Array/Struct  |                             |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition         |   314        | user array partition pragmas are applied                                               |
+|               | (2) simplification          |   314        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate  |   314        | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape           |   314        | apply array reshape pragmas                                                            |
+|               | (5) access patterns         |   328        | array access pattern optmizations                                                      |
+|               |                             |              |                                                                                        |
+| Performance   |                             |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification     |   324        | loop and instruction simplification                                                    |
+|               | (2) parallelization         |   319        | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition         |   319        | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification          |   319        | simplification of design after performance transformations                             |
+|               |                             |              |                                                                                        |
+| HW Transforms |                             |              | After hardware transfomations                                                          |
+|               | (1) lowering                |   336        | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations           |   366        | high level synthesis optimizations                                                     |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++-------------------------------------+----------------------------+-----------------+---------------+--------------+-------------+---------------+
+| Function                            | Location                   | Compile/Link    | Unroll/Inline | Array/Struct | Performance | HW Transforms |
++-------------------------------------+----------------------------+-----------------+---------------+--------------+-------------+---------------+
+| + cvtcolor_og                       | accel3.cpp:3               | 6,383           | 395           | 328          | 319         | 366           |
+|  + Mat                              | xf_structs.hpp:652         |   74 (2 calls)  |               |              |             |               |
+|   + init                            | xf_structs.hpp:605         |   56 (2 calls)  |               |              |             |               |
+|      alloc_data<2, nullptr>         | xf_structs.hpp:493         |    2 (2 calls)  |               |              |             |               |
+|  + Array2xfMat<512, 16, 1080, 1...  | xf_utility.hpp:834         | 1,707           | 128           | 110          | 109         | 125           |
+|   + Array2xfMat                     | xf_structs.hpp:1232        | 1,705           |               |              |             |               |
+|    + Axi2Mat                        | xf_structs.hpp:1135        | 1,698           |               |              |             |               |
+|     + Axi2AxiStream                 | xf_structs.hpp:1006        | 1,167           |               |              |             |               |
+|        addrbound                    | xf_structs.hpp:942         |  800 (2 calls)  |               |              |             |               |
+|     + AxiStream2Mat                 | xf_structs.hpp:1107        |  505            |               |              |             |               |
+|        cols_npc_aligned             | xf_structs.hpp:930         |    3            |               |              |             |               |
+|        last_blk_pxl_width           | xf_structs.hpp:932         |   11            |               |              |             |               |
+|        AxiStream2MatStream<2>       | xf_structs.hpp:1031        |  481            |               |              |             |               |
+|   + Axi2Mat                         | xf_structs.hpp:1135        |                 | 124           | 106          | 105         | 121           |
+|      Axi2AxiStream                  | xf_structs.hpp:1006        |                 |  34           |  34          |  34         |  39           |
+|    + AxiStream2Mat                  | xf_structs.hpp:1107        |                 |  75           |  67          |  66         |  74           |
+|       cols_npc_aligned              | xf_structs.hpp:930         |                 |   1           |              |             |               |
+|       last_blk_pxl_width            | xf_structs.hpp:932         |                 |   3           |   3          |   3         |   3           |
+|       AxiStream2MatStream<2>        | xf_structs.hpp:1031        |                 |  61           |  61          |  60         |  66           |
+|  + bgr2gray<16, 0, 1080, 1920, ...  | xf_cvt_color.hpp:5610      | 1,595           |  67           |  51          |  49         |  58           |
+|   + xfbgr2gray<16, 0, 1080, 1920... | xf_cvt_color.hpp:5563      | 1,587           |               |              |             |               |
+|      read<2, nullptr>               | xf_structs.hpp:541         |   10            |               |              |             |               |
+|      ExtractUYVYPixels<10>          | xf_cvt_color_utils.hpp:142 |   83            |               |              |             |               |
+|    + CalculateGRAY                  | xf_cvt_color_utils.hpp:882 |   24            |               |              |             |               |
+|       saturate_cast                 | xf_cvt_color_utils.hpp:757 |   14            |               |              |             |               |
+|      write<2, nullptr>              | xf_structs.hpp:552         |    8            |               |              |             |               |
+|  + xfMat2Array<512, 0, 1080, 19...  | xf_utility.hpp:824         | 2,956           | 157           | 142          | 136         | 145           |
+|   + xfMat2Array                     | xf_structs.hpp:1554        | 2,954           |               |              |             |               |
+|    + Mat2Axi                        | xf_structs.hpp:1405        | 2,947           |               |              |             |               |
+|       addrbound                     | xf_structs.hpp:942         | 1,200 (3 calls) |               |              |             |               |
+|     + Mat2AxiStream                 | xf_structs.hpp:1345        | 1,380           |               |              |             |               |
+|        cols_npc_aligned             | xf_structs.hpp:930         |    3            |               |              |             |               |
+|        last_blk_pxl_width           | xf_structs.hpp:932         |   11            |               |              |             |               |
+|      + MatStream2AxiStream<2>       | xf_structs.hpp:1281        | 1,356           |               |              |             |               |
+|         cols_npc_aligned            | xf_structs.hpp:930         |    3            |               |              |             |               |
+|       AxiStream2Axi                 | xf_structs.hpp:1373        |  242 (2 calls)  |               |              |             |               |
+|   + Mat2Axi                         | xf_structs.hpp:1405        |                 | 153           | 138          | 132         | 141           |
+|      addrbound                      | xf_structs.hpp:942         |                 |  16           |  16          |  16         |  16           |
+|    + Mat2AxiStream                  | xf_structs.hpp:1345        |                 |  96           |  92          |  86         |  90           |
+|       cols_npc_aligned              | xf_structs.hpp:930         |                 |   1           |              |             |               |
+|       last_blk_pxl_width            | xf_structs.hpp:932         |                 |   3           |   3          |   3         |   3           |
+|       MatStream2AxiStream<2>        | xf_structs.hpp:1281        |                 |  82           |  86          |  80         |  82           |
+|      AxiStream2Axi                  | xf_structs.hpp:1373        |                 |  14           |  15          |  15         |  23           |
+|    ~Mat                             | xf_structs.hpp:865         |    2 (2 calls)  |               |              |             |               |
++-------------------------------------+----------------------------+-----------------+---------------+--------------+-------------+---------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

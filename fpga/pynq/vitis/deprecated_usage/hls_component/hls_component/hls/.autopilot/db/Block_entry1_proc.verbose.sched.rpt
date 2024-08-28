@@ -1,0 +1,110 @@
+
+
+================================================================
+== Vitis HLS Report for 'Block_entry1_proc'
+================================================================
+* Date:           Wed Mar 20 05:11:59 2024
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        hls_component
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|      0 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%cols_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %cols" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 2 'read' 'cols_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%rows_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %rows" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 3 'read' 'rows_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%mrv = insertvalue i128 <undef>, i32 %rows_read" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 4 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue i128 %mrv, i32 %cols_read" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 5 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%mrv_2 = insertvalue i128 %mrv_1, i32 %rows_read" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 6 'insertvalue' 'mrv_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%mrv_3 = insertvalue i128 %mrv_2, i32 %cols_read" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 7 'insertvalue' 'mrv_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%ret_ln18 = ret i128 %mrv_3" [W:/vitis_workspace/ip24/att4/hls_component/accel3.cpp:18]   --->   Operation 8 'ret' 'ret_ln18' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 0.000ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

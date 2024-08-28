@@ -1,0 +1,772 @@
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:1448:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:1448:7: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:2422:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:2422:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:2436:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:2436:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:2450:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:2450:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:4079:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:4079:7: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15321:2: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_307_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15321:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15335:5: warning: Added loop label VITIS_LOOP_321_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_321_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15335:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15350:5: warning: Added loop label VITIS_LOOP_336_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_336_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15350:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15365:5: warning: Added loop label VITIS_LOOP_351_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_351_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15365:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15380:5: warning: Added loop label VITIS_LOOP_366_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_366_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15380:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15395:5: warning: Added loop label VITIS_LOOP_381_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_381_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15395:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15410:5: warning: Added loop label VITIS_LOOP_396_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_396_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15410:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15425:5: warning: Added loop label VITIS_LOOP_411_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_411_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15425:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15440:5: warning: Added loop label VITIS_LOOP_426_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_426_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15440:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15517:9: warning: Added loop label VITIS_LOOP_511_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < (rows * ((cols + NPC - 1) >> xfNPixelsPerCycle<NPC>::datashift)); ++i) {
+        ^~~
+        VITIS_LOOP_511_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15517:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15725:5: warning: Added loop label VITIS_LOOP_719_1:   [xilinx-label-all-loops]
+    for (int r = 0; r < rows; r++) {
+    ^~~
+    VITIS_LOOP_719_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15725:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15726:9: warning: Added loop label VITIS_LOOP_720_2:   [xilinx-label-all-loops]
+        for (int c = 0; c < packcols; c++) {
+        ^~~
+        VITIS_LOOP_720_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15726:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15727:13: warning: Added loop label VITIS_LOOP_721_3:   [xilinx-label-all-loops]
+            for (int p = 0; p < nppc; p++) {
+            ^~~
+            VITIS_LOOP_721_3: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15727:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15729:17: warning: Added loop label VITIS_LOOP_723_4:   [xilinx-label-all-loops]
+                for (int ch = 0; ch < DataType<T, NPPC>::channel; ch++) {
+                ^~~
+                VITIS_LOOP_723_4: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15729:17: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15767:5: warning: Added loop label VITIS_LOOP_761_1:   [xilinx-label-all-loops]
+    for (int r = 0; r < rows; r++) {
+    ^~~
+    VITIS_LOOP_761_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15767:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15768:9: warning: Added loop label VITIS_LOOP_762_2:   [xilinx-label-all-loops]
+        for (int c = 0; c < cols; c++) {
+        ^~~
+        VITIS_LOOP_762_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15768:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15770:13: warning: Added loop label VITIS_LOOP_764_3:   [xilinx-label-all-loops]
+            for (int ch = 0; ch < DataType<T, NPPC>::channel; ch++) {
+            ^~~
+            VITIS_LOOP_764_3: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15770:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15771:17: warning: Added loop label VITIS_LOOP_765_4:   [xilinx-label-all-loops]
+                for (int b = 0; b < cv_nbytes; ++b) {
+                ^~~
+                VITIS_LOOP_765_4: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15771:17: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15825:5: warning: Added loop label VITIS_LOOP_819_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < rows; i++) {
+    ^~~
+    VITIS_LOOP_819_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15825:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15826:9: warning: Added loop label VITIS_LOOP_820_2:   [xilinx-label-all-loops]
+        for (int j = 0; j<cols>> (xfNPixelsPerCycle<NPPC>::datashift); j++) {
+        ^~~
+        VITIS_LOOP_820_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15826:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15834:13: warning: Added loop label VITIS_LOOP_828_3:   [xilinx-label-all-loops]
+            for (int k = 0; k < (1 << (xfNPixelsPerCycle<NPPC>::datashift)); k++) {
+            ^~~
+            VITIS_LOOP_828_3: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15834:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:15947:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLS BIND_OP variable=mul_rows_cols op=mul impl=dsp latency=2
+        ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16019:2: warning: Added loop label VITIS_LOOP_1021_1:   [xilinx-label-all-loops]
+ for (c = 0; c < cols_addrbound; c++) {
+ ^~~
+ VITIS_LOOP_1021_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16019:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16427:13: warning: Added loop label VITIS_LOOP_1429_1:   [xilinx-label-all-loops]
+            for (int rowIdx = 0, offset = 0; rowIdx < rows; rowIdx++, offset += offset_1row) {
+            ^~~
+            VITIS_LOOP_1429_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16427:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16455:13: warning: Added loop label VITIS_LOOP_1457_1:   [xilinx-label-all-loops]
+            for (int rowIdx = 0, offset = 0; rowIdx < rows; rowIdx++, offset += offset_1row) {
+            ^~~
+            VITIS_LOOP_1457_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16455:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16485:13: warning: Added loop label VITIS_LOOP_1487_1:   [xilinx-label-all-loops]
+            for (int rowIdx = 0, offset = 0; rowIdx < rows; rowIdx++, offset += offset_1row) {
+            ^~~
+            VITIS_LOOP_1487_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16485:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16515:13: warning: Added loop label VITIS_LOOP_1517_1:   [xilinx-label-all-loops]
+            for (int rowIdx = 0, offset = 0; rowIdx < rows; rowIdx++, offset += offset_1row) {
+            ^~~
+            VITIS_LOOP_1517_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16515:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16814:5: warning: Added loop label VITIS_LOOP_122_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_122_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16814:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16818:2: warning: Added loop label VITIS_LOOP_126_2:   [xilinx-label-all-loops]
+ for (j = 0; j < COLS - 1; j++) {
+ ^~~
+ VITIS_LOOP_126_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16818:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16845:5: warning: Added loop label VITIS_LOOP_166_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_166_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16845:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16849:2: warning: Added loop label VITIS_LOOP_170_2:   [xilinx-label-all-loops]
+ for (j = COLS - 1; j > 0; j--) {
+ ^~~
+ VITIS_LOOP_170_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16849:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16876:5: warning: Added loop label VITIS_LOOP_210_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS - 1; i++) {
+    ^~~
+    VITIS_LOOP_210_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16876:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16880:2: warning: Added loop label VITIS_LOOP_214_2:   [xilinx-label-all-loops]
+ for (j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_214_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16880:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16907:5: warning: Added loop label VITIS_LOOP_254_1:   [xilinx-label-all-loops]
+    for (i = ROWS - 1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_254_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16907:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16911:2: warning: Added loop label VITIS_LOOP_258_2:   [xilinx-label-all-loops]
+ for (j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_258_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16911:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16957:5: warning: Added loop label VITIS_LOOP_330_1:   [xilinx-label-all-loops]
+    for (j = 0; j < COLS; j++) {
+    ^~~
+    VITIS_LOOP_330_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:16957:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17020:5: warning: Added loop label VITIS_LOOP_435_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_435_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17020:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17217:44: error: Invalid Directive: for current device, RAM_1P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_1P impl=BRAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17222:44: error: Invalid Directive: for current device, RAM_1P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_1P impl=URAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17227:44: error: Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_2P impl=BRAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17232:44: error: Invalid Directive: for current device, RAM_2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_2P impl=URAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17237:44: error: Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_S2P impl=BRAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17242:44: error: Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_S2P impl=URAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17247:44: error: Invalid Directive: for current device, RAM_T2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_T2P impl=BRAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17252:44: error: Invalid Directive: for current device, RAM_T2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_T2P impl=URAM
+                                           ^
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17308:5: warning: Added loop label VITIS_LOOP_824_1:   [xilinx-label-all-loops]
+    for (i = ROWS - 1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_824_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17308:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17334:5: warning: Added loop label VITIS_LOOP_867_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS - 1; i++) {
+    ^~~
+    VITIS_LOOP_867_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17334:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17390:5: warning: Added loop label VITIS_LOOP_968_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_968_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17390:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17486:5: warning: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_39_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17486:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17505:5: warning: Added loop label VITIS_LOOP_58_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_58_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17505:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17533:5: warning: Added loop label VITIS_LOOP_86_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_86_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17533:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17566:5: warning: Added loop label VITIS_LOOP_119_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_119_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17566:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17600:5: warning: Added loop label VITIS_LOOP_153_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_153_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17600:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17628:5: warning: Added loop label VITIS_LOOP_181_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_181_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17628:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17652:5: warning: Added loop label VITIS_LOOP_205_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_205_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17652:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17675:5: warning: Added loop label VITIS_LOOP_228_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < loopcount; i++) {
+    ^~~
+    VITIS_LOOP_228_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17675:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17710:5: warning: Added loop label VITIS_LOOP_263_1:   [xilinx-label-all-loops]
+    for (uint16_t r = 0; r < K_ROWS; r++) {
+    ^~~
+    VITIS_LOOP_263_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17710:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17712:2: warning: Added loop label VITIS_LOOP_265_2:   [xilinx-label-all-loops]
+ for (uint16_t c = 0; c < K_COLS; c++) {
+ ^~~
+ VITIS_LOOP_265_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17712:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17772:5: warning: Added loop label VITIS_LOOP_325_1:   [xilinx-label-all-loops]
+    for (ap_int<9> i = 0; i < loopIter; i++) {
+    ^~~
+    VITIS_LOOP_325_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17772:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17844:5: warning: Added loop label VITIS_LOOP_397_1:   [xilinx-label-all-loops]
+    for (i = 0; i < 6; i++, ind++) {
+    ^~~
+    VITIS_LOOP_397_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17844:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17915:5: warning: Added loop label VITIS_LOOP_468_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < imheight; i++) {
+    ^~~
+    VITIS_LOOP_468_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17915:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17920:2: warning: Added loop label VITIS_LOOP_473_2:   [xilinx-label-all-loops]
+ for (int j = 0; j < (imwidth >> NPC); j++) {
+ ^~~
+ VITIS_LOOP_473_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17920:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17946:9: warning: Added loop label VITIS_LOOP_499_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < loop_count; i++) {
+        ^~~
+        VITIS_LOOP_499_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:17946:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18052:9: warning: Added loop label VITIS_LOOP_623_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < loop_count; i++) {
+        ^~~
+        VITIS_LOOP_623_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18052:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18166:9: warning: Added loop label VITIS_LOOP_737_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < loop_count; i++) {
+        ^~~
+        VITIS_LOOP_737_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18166:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18198:9: warning: Added loop label VITIS_LOOP_788_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < loop_count; i++) {
+        ^~~
+        VITIS_LOOP_788_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18198:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18283:5: warning: Added loop label VITIS_LOOP_127_1:   [xilinx-label-all-loops]
+    for (int k = 0, l = 0; k < StreamType<WORDWIDTH>::bitdepth; k += 8, l++) {
+    ^~~
+    VITIS_LOOP_127_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18283:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18303:5: warning: Added loop label VITIS_LOOP_147_1:   [xilinx-label-all-loops]
+    for (k = 0; k < (StreamType<WORDWIDTH>::bitdepth); k += 8) {
+    ^~~
+    VITIS_LOOP_147_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18303:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18326:5: warning: Added loop label VITIS_LOOP_170_1:   [xilinx-label-all-loops]
+    for (k = 0; k < (StreamType<WORDWIDTH>::bitdepth); k += STEP) {
+    ^~~
+    VITIS_LOOP_170_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18326:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18345:5: warning: Added loop label VITIS_LOOP_189_1:   [xilinx-label-all-loops]
+    for (k = 0; k < StreamType<WORDDEPTH>::bitdepth; k += 8) {
+    ^~~
+    VITIS_LOOP_189_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18345:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18363:5: warning: Added loop label VITIS_LOOP_207_1:   [xilinx-label-all-loops]
+    for (int k = 0, l = 0; k < (StreamType<WORDWIDTH>::bitdepth); k += 8, l++) {
+    ^~~
+    VITIS_LOOP_207_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18363:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18670:5: warning: Added loop label VITIS_LOOP_46_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < height; i++) {
+    ^~~
+    VITIS_LOOP_46_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18670:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18675:2: warning: Added loop label VITIS_LOOP_51_2:   [xilinx-label-all-loops]
+ for (int j = 0; j < width; j++) {
+ ^~~
+ VITIS_LOOP_51_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18675:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18734:9: warning: Added loop label VITIS_LOOP_110_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < width; k++) {
+        ^~~
+        VITIS_LOOP_110_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18734:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18823:9: warning: Added loop label VITIS_LOOP_199_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_199_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18823:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18925:9: warning: Added loop label VITIS_LOOP_301_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < width; k++) {
+        ^~~
+        VITIS_LOOP_301_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:18925:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:19017:9: warning: Added loop label VITIS_LOOP_393_1:   [xilinx-label-all-loops]
+        for (i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_393_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:19017:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:19212:9: warning: Added loop label VITIS_LOOP_588_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < width; j++) {
+        ^~~
+        VITIS_LOOP_588_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:19212:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20004:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < height; i++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20004:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20009:2: warning: Added loop label VITIS_LOOP_48_2:   [xilinx-label-all-loops]
+ for (int j = 0; j < (width >> xfNPixelsPerCycle<NPC>::datashift); j++) {
+ ^~~
+ VITIS_LOOP_48_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20009:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20072:13: warning: Added loop label VITIS_LOOP_111_1:   [xilinx-label-all-loops]
+            for (int l = 0; l<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; l++) {
+            ^~~
+            VITIS_LOOP_111_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20072:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20166:13: warning: Added loop label VITIS_LOOP_205_1:   [xilinx-label-all-loops]
+            for (l = 0; l<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; l++) {
+            ^~~
+            VITIS_LOOP_205_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20166:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20258:13: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+            for (int l = 0; l<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; l++) {
+            ^~~
+            VITIS_LOOP_307_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20258:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20336:13: warning: Added loop label VITIS_LOOP_385_1:   [xilinx-label-all-loops]
+            for (int l = 0; l<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; l++) {
+            ^~~
+            VITIS_LOOP_385_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20336:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20418:13: warning: Added loop label VITIS_LOOP_467_1:   [xilinx-label-all-loops]
+            for (int l = 0; l<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; l++) {
+            ^~~
+            VITIS_LOOP_467_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20418:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20497:13: warning: Added loop label VITIS_LOOP_546_1:   [xilinx-label-all-loops]
+            for (int l = 0; l<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; l++) {
+            ^~~
+            VITIS_LOOP_546_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20497:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20608:13: warning: Added loop label VITIS_LOOP_657_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_657_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20608:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20711:13: warning: Added loop label VITIS_LOOP_760_1:   [xilinx-label-all-loops]
+            for (k = 0, l = 0; k < ((1 << xfNPixelsPerCycle<NPC>::datashift) >> 1); k++, l += 16) {
+            ^~~
+            VITIS_LOOP_760_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20711:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20784:13: warning: Added loop label VITIS_LOOP_833_1:   [xilinx-label-all-loops]
+            for (int k = 0, l = 0; k < (1 << (2)); k++, l += 16) {
+            ^~~
+            VITIS_LOOP_833_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20784:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20804:9: warning: Added loop label VITIS_LOOP_853_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < (_u_image.cols >> xfNPixelsPerCycle<NPC>::datashift); j++) {
+        ^~~
+        VITIS_LOOP_853_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20804:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20864:13: warning: Added loop label VITIS_LOOP_913_1:   [xilinx-label-all-loops]
+            for (int k = 0, l = 0; k < (1 << (xfNPixelsPerCycle<NPC>::datashift)); k += 4, l += 16) {
+            ^~~
+            VITIS_LOOP_913_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20864:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20946:13: warning: Added loop label VITIS_LOOP_995_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_995_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:20946:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21068:13: warning: Added loop label VITIS_LOOP_1124_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_1124_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21068:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21171:13: warning: Added loop label VITIS_LOOP_1234_1:   [xilinx-label-all-loops]
+            for (int k = 0, l = 0; k < (1 << (xfNPixelsPerCycle<NPC>::datashift)); k += 2, l += 16) {
+            ^~~
+            VITIS_LOOP_1234_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21171:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21184:9: warning: Added loop label VITIS_LOOP_1247_2:   [xilinx-label-all-loops]
+        for (j = 0; j < (width >> xfNPixelsPerCycle<NPC>::datashift); j++) {
+        ^~~
+        VITIS_LOOP_1247_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21184:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21243:13: warning: Added loop label VITIS_LOOP_1306_1:   [xilinx-label-all-loops]
+            for (k = 0, l = 0; k < (1 << (xfNPixelsPerCycle<NPC>::datashift)); k += 4, l += 16) {
+            ^~~
+            VITIS_LOOP_1306_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21243:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21324:13: warning: Added loop label VITIS_LOOP_1530_1:   [xilinx-label-all-loops]
+            for (k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_1530_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21324:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21445:13: warning: Added loop label VITIS_LOOP_1658_1:   [xilinx-label-all-loops]
+            for (k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_1658_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21445:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21536:13: warning: Added loop label VITIS_LOOP_1784_1:   [xilinx-label-all-loops]
+            for (k = 0, l = 0; k < (1 << (xfNPixelsPerCycle<NPC>::datashift)); k += 2, l += 16) {
+            ^~~
+            VITIS_LOOP_1784_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21536:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21551:9: warning: Added loop label VITIS_LOOP_1799_2:   [xilinx-label-all-loops]
+        for (j = 0; j < (width >> xfNPixelsPerCycle<NPC>::datashift); j++) {
+        ^~~
+        VITIS_LOOP_1799_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21551:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21602:13: warning: Added loop label VITIS_LOOP_1850_1:   [xilinx-label-all-loops]
+            for (int k = 0; k < (xfNPixelsPerCycle<NPC>::nppc >> 1); k++) {
+            ^~~
+            VITIS_LOOP_1850_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21602:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21694:13: warning: Added loop label VITIS_LOOP_1942_1:   [xilinx-label-all-loops]
+            for (int k = 0; k < (xfNPixelsPerCycle<NPC>::nppc >> 1); k++) {
+            ^~~
+            VITIS_LOOP_1942_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21694:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21779:13: warning: Added loop label VITIS_LOOP_2027_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1;
+            ^~~
+            VITIS_LOOP_2027_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21779:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21848:13: warning: Added loop label VITIS_LOOP_2096_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1;
+            ^~~
+            VITIS_LOOP_2096_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21848:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21919:13: warning: Added loop label VITIS_LOOP_2167_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2167_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:21919:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22000:13: warning: Added loop label VITIS_LOOP_2248_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2248_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22000:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22077:13: warning: Added loop label VITIS_LOOP_2325_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2325_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22077:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22145:13: warning: Added loop label VITIS_LOOP_2393_1:   [xilinx-label-all-loops]
+            for (int k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2393_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22145:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22210:13: warning: Added loop label VITIS_LOOP_2458_1:   [xilinx-label-all-loops]
+            for (k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2458_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22210:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22290:13: warning: Added loop label VITIS_LOOP_2538_1:   [xilinx-label-all-loops]
+            for (k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2538_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22290:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22370:13: warning: Added loop label VITIS_LOOP_2618_1:   [xilinx-label-all-loops]
+            for (k = 0; k<(1 << xfNPixelsPerCycle<NPC>::datashift)>> 1; k++) {
+            ^~~
+            VITIS_LOOP_2618_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:22370:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24114:13: warning: Added loop label VITIS_LOOP_4740_1:   [xilinx-label-all-loops]
+            for (k = 0; k < NPC; k++) {
+            ^~~
+            VITIS_LOOP_4740_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24114:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24275:9: warning: Added loop label VITIS_LOOP_4911_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_4911_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24275:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24418:9: warning: Added loop label VITIS_LOOP_5071_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_5071_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24418:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24563:9: warning: Added loop label VITIS_LOOP_5233_1:   [xilinx-label-all-loops]
+        for (i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_5233_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24563:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24708:9: warning: Added loop label VITIS_LOOP_5395_1:   [xilinx-label-all-loops]
+        for (i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_5395_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24708:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24810:13: warning: Added loop label VITIS_LOOP_5514_1:   [xilinx-label-all-loops]
+            for (ap_uint<13> k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_5514_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24810:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24886:13: warning: Added loop label VITIS_LOOP_5590_1:   [xilinx-label-all-loops]
+            for (ap_uint<13> k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_5590_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24886:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24959:13: warning: Added loop label VITIS_LOOP_5663_1:   [xilinx-label-all-loops]
+            for (int k = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++) {
+            ^~~
+            VITIS_LOOP_5663_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:24959:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25036:13: warning: Added loop label VITIS_LOOP_5740_1:   [xilinx-label-all-loops]
+            for (int k = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++) {
+            ^~~
+            VITIS_LOOP_5740_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25036:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25120:13: warning: Added loop label VITIS_LOOP_5824_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_5824_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25120:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25210:13: warning: Added loop label VITIS_LOOP_5914_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_5914_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25210:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25286:13: warning: Added loop label VITIS_LOOP_5999_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_5999_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25286:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25371:13: warning: Added loop label VITIS_LOOP_6084_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6084_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25371:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25455:13: warning: Added loop label VITIS_LOOP_6168_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6168_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25455:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25536:13: warning: Added loop label VITIS_LOOP_6249_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6249_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25536:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25618:13: warning: Added loop label VITIS_LOOP_6331_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6331_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25618:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25698:13: warning: Added loop label VITIS_LOOP_6411_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6411_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25698:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25787:13: warning: Added loop label VITIS_LOOP_6500_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6500_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25787:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25920:13: warning: Added loop label VITIS_LOOP_6633_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6633_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:25920:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26050:13: warning: Added loop label VITIS_LOOP_6784_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6784_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26050:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26164:13: warning: Added loop label VITIS_LOOP_6898_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_6898_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26164:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26277:13: warning: Added loop label VITIS_LOOP_7011_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_7011_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26277:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26390:13: warning: Added loop label VITIS_LOOP_7124_1:   [xilinx-label-all-loops]
+            for (int k = 0, offset = 0; k < xfNPixelsPerCycle<NPC>::nppc; k++, offset += 3) {
+            ^~~
+            VITIS_LOOP_7124_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26390:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26495:13: warning: Added loop label VITIS_LOOP_7237_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7237_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26495:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26605:13: warning: Added loop label VITIS_LOOP_7363_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7363_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26605:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26694:13: warning: Added loop label VITIS_LOOP_7461_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7461_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26694:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26786:13: warning: Added loop label VITIS_LOOP_7562_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7562_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26786:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26805:9: warning: Added loop label VITIS_LOOP_7581_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_7581_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26805:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26894:13: warning: Added loop label VITIS_LOOP_7685_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7685_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26894:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26913:9: warning: Added loop label VITIS_LOOP_7704_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_7704_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:26913:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27001:13: warning: Added loop label VITIS_LOOP_7807_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7807_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27001:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27020:9: warning: Added loop label VITIS_LOOP_7826_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_7826_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27020:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27108:13: warning: Added loop label VITIS_LOOP_7929_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_7929_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27108:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27127:9: warning: Added loop label VITIS_LOOP_7948_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < width; i++) {
+        ^~~
+        VITIS_LOOP_7948_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27127:9: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27217:13: warning: Added loop label VITIS_LOOP_8053_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_8053_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27217:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27327:13: warning: Added loop label VITIS_LOOP_8180_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_8180_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27327:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27415:13: warning: Added loop label VITIS_LOOP_8277_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_8277_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:27415:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28054:13: warning: Added loop label VITIS_LOOP_9022_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC_UV>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_9022_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28054:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28156:13: warning: Added loop label VITIS_LOOP_9156_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < (xfNPixelsPerCycle<NPC>::nppc); l++) {
+            ^~~
+            VITIS_LOOP_9156_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28156:13: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28325:5: warning: Added loop label VITIS_LOOP_136_1:   [xilinx-label-all-loops]
+    for (uint16_t row = 0; row < rows; row++) {
+    ^~~
+    VITIS_LOOP_136_1: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28325:5: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28329:2: warning: Added loop label VITIS_LOOP_140_2:   [xilinx-label-all-loops]
+ for (uint16_t col = 0; col < cols; col++) {
+ ^~~
+ VITIS_LOOP_140_2: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28329:2: note: FIX-IT applied suggested code changes
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28336:13: warning: Added loop label VITIS_LOOP_147_3:   [xilinx-label-all-loops]
+            for (int p = 0; p < (xfNPixelsPerCycle<NPC>::nppc * DataType<SRC_T, NPC>::channel); p = p + DataType<SRC_T, NPC>::channel) {
+            ^~~
+            VITIS_LOOP_147_3: 
+W:\vitis_workspace\ip24\att4\hls_component\hls_component\hls\.autopilot\db\accel3.pp.0.cpp:28336:13: note: FIX-IT applied suggested code changes

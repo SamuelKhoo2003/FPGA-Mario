@@ -1,0 +1,198 @@
+
+
+================================================================
+== Vitis HLS Report for 'bgr2gray_16_0_1080_1920_1_2_2_Pipeline_columnloop'
+================================================================
+* Date:           Wed Mar 20 05:12:04 2024
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        hls_component
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.734 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1926|     1926|  19.260 us|  19.260 us|  1926|  1926|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------+---------+---------+----------+-----------+-----------+------+----------+
+        |              |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |   Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- columnloop  |     1924|     1924|         6|          1|          1|  1920|       yes|
+        +--------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 6
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 6
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 6, States = { 1 2 3 4 5 6 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.25>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j = alloca i32 1"   --->   Operation 9 'alloca' 'j' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %imgInput0_data, void @empty_19, i32 0, i32 0, void @empty_12, i32 0, i32 0, void @empty_12, void @empty_12, void @empty_12, i32 0, i32 0, i32 0, i32 0, void @empty_12, void @empty_12, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %imgOutput0_data, void @empty_19, i32 0, i32 0, void @empty_12, i32 0, i32 0, void @empty_12, void @empty_12, void @empty_12, i32 0, i32 0, i32 0, i32 0, void @empty_12, void @empty_12, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%tmp = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %empty" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5623]   --->   Operation 12 'read' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (1.58ns)   --->   "%store_ln0 = store i16 0, i16 %j"   --->   Operation 13 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%br_ln0 = br void %VITIS_LOOP_5590_1.i"   --->   Operation 14 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%j_load = load i16 %j" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 15 'load' 'j_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (2.07ns)   --->   "%icmp_ln5582 = icmp_eq  i16 %j_load, i16 %tmp" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 16 'icmp' 'icmp_ln5582' <Predicate = true> <Delay = 2.07> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [1/1] (2.07ns)   --->   "%add_ln5582 = add i16 %j_load, i16 1" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 17 'add' 'add_ln5582' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln5582 = br i1 %icmp_ln5582, void %VITIS_LOOP_5590_1.i.split, void %for.inc51.i.loopexit.exitStub" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 18 'br' 'br_ln5582' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (1.58ns)   --->   "%store_ln5582 = store i16 %add_ln5582, i16 %j" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 19 'store' 'store_ln5582' <Predicate = (!icmp_ln5582)> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 4.68>
+ST_2 : Operation 20 [1/1] (3.63ns)   --->   "%pix = read i24 @_ssdm_op_Read.ap_fifo.volatile.i24P0A, i24 %imgInput0_data" [C:/Xilinx/Vitis_Libraries/vision/L1/include\common/xf_structs.hpp:542->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5588->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 20 'read' 'pix' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 2> <FIFO>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%p = trunc i24 %pix" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:155->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5589->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 21 'trunc' 'p' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%p_1 = partselect i8 @_ssdm_op_PartSelect.i8.i24.i32.i32, i24 %pix, i32 8, i32 15" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:155->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5589->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 22 'partselect' 'p_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%p_2 = partselect i8 @_ssdm_op_PartSelect.i8.i24.i32.i32, i24 %pix, i32 16, i32 23" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:155->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5589->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 23 'partselect' 'p_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%zext_ln886_2 = zext i8 %p" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 24 'zext' 'zext_ln886_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [3/3] (1.05ns) (grouped into DSP with root node add_ln886)   --->   "%mul_ln886_2 = mul i20 %zext_ln886_2, i20 3736" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 25 'mul' 'mul_ln886_2' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 3 <SV = 2> <Delay = 5.59>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%zext_ln886 = zext i8 %p_2" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 26 'zext' 'zext_ln886' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%zext_ln886_1 = zext i8 %p_1" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 27 'zext' 'zext_ln886_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (5.59ns)   --->   "%mul_ln886 = mul i22 %zext_ln886, i22 9798" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 28 'mul' 'mul_ln886' <Predicate = true> <Delay = 5.59> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 5.59> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 29 [3/3] (1.05ns) (grouped into DSP with root node GRAY)   --->   "%mul_ln886_1 = mul i23 %zext_ln886_1, i23 19235" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 29 'mul' 'mul_ln886_1' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 30 [2/3] (1.05ns) (grouped into DSP with root node add_ln886)   --->   "%mul_ln886_2 = mul i20 %zext_ln886_2, i20 3736" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 30 'mul' 'mul_ln886_2' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 4 <SV = 3> <Delay = 2.10>
+ST_4 : Operation 31 [2/3] (1.05ns) (grouped into DSP with root node GRAY)   --->   "%mul_ln886_1 = mul i23 %zext_ln886_1, i23 19235" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 31 'mul' 'mul_ln886_1' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 32 [1/3] (0.00ns) (grouped into DSP with root node add_ln886)   --->   "%mul_ln886_2 = mul i20 %zext_ln886_2, i20 3736" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 32 'mul' 'mul_ln886_2' <Predicate = true> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 33 [1/1] (0.00ns) (grouped into DSP with root node add_ln886)   --->   "%zext_ln886_3 = zext i20 %mul_ln886_2" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 33 'zext' 'zext_ln886_3' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 34 [2/2] (2.10ns) (root node of the DSP)   --->   "%add_ln886 = add i22 %mul_ln886, i22 %zext_ln886_3" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 34 'add' 'add_ln886' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 5 <SV = 4> <Delay = 4.20>
+ST_5 : Operation 35 [1/3] (0.00ns) (grouped into DSP with root node GRAY)   --->   "%mul_ln886_1 = mul i23 %zext_ln886_1, i23 19235" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 35 'mul' 'mul_ln886_1' <Predicate = true> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_5 : Operation 36 [1/2] (2.10ns) (root node of the DSP)   --->   "%add_ln886 = add i22 %mul_ln886, i22 %zext_ln886_3" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 36 'add' 'add_ln886' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_5 : Operation 37 [1/1] (0.00ns)   --->   "%zext_ln886_4 = zext i22 %add_ln886" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 37 'zext' 'zext_ln886_4' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 38 [2/2] (2.10ns) (root node of the DSP)   --->   "%GRAY = add i23 %zext_ln886_4, i23 %mul_ln886_1" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 38 'add' 'GRAY' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_5 : Operation 46 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 46 'ret' 'ret_ln0' <Predicate = (icmp_ln5582)> <Delay = 0.00>
+
+State 6 <SV = 5> <Delay = 5.73>
+ST_6 : Operation 39 [1/1] (0.00ns)   --->   "%specpipeline_ln5584 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_12" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5584->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 39 'specpipeline' 'specpipeline_ln5584' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 40 [1/1] (0.00ns)   --->   "%speclooptripcount_ln5585 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 1920, i64 1920, i64 1920" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5585->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 40 'speclooptripcount' 'speclooptripcount_ln5585' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 41 [1/1] (0.00ns)   --->   "%specloopname_ln5582 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 41 'specloopname' 'specloopname_ln5582' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 42 [1/2] (2.10ns) (root node of the DSP)   --->   "%GRAY = add i23 %zext_ln886_4, i23 %mul_ln886_1" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 42 'add' 'GRAY' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 119 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 43 [1/1] (0.00ns)   --->   "%Value_uchar = partselect i8 @_ssdm_op_PartSelect.i8.i23.i32.i32, i23 %GRAY, i32 15, i32 22" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:766->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:887->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 43 'partselect' 'Value_uchar' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 44 [1/1] (3.63ns)   --->   "%write_ln553 = write void @_ssdm_op_Write.ap_fifo.volatile.i8P0A, i8 %imgOutput0_data, i8 %Value_uchar" [C:/Xilinx/Vitis_Libraries/vision/L1/include\common/xf_structs.hpp:553->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5598->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 44 'write' 'write_ln553' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_6 : Operation 45 [1/1] (0.00ns)   --->   "%br_ln5582 = br void %VITIS_LOOP_5590_1.i" [C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622]   --->   Operation 45 'br' 'br_ln5582' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 5.253ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln0') of constant 0 on local variable 'j' [8]  (1.588 ns)
+	'load' operation 16 bit ('j_load', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) on local variable 'j' [11]  (0.000 ns)
+	'add' operation 16 bit ('add_ln5582', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [13]  (2.077 ns)
+	'store' operation 0 bit ('store_ln5582', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) of variable 'add_ln5582', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5582->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622 on local variable 'j' [35]  (1.588 ns)
+
+ <State 2>: 4.684ns
+The critical path consists of the following:
+	fifo read operation ('pix', C:/Xilinx/Vitis_Libraries/vision/L1/include\common/xf_structs.hpp:542->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5588->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) on port 'imgInput0_data' (C:/Xilinx/Vitis_Libraries/vision/L1/include\common/xf_structs.hpp:542->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5588->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [19]  (3.634 ns)
+	'mul' operation 20 bit of DSP[30] ('mul_ln886_2', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [28]  (1.050 ns)
+
+ <State 3>: 5.590ns
+The critical path consists of the following:
+	'mul' operation 22 bit ('mul_ln886', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [26]  (5.590 ns)
+
+ <State 4>: 2.100ns
+The critical path consists of the following:
+	'mul' operation 20 bit of DSP[30] ('mul_ln886_2', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [28]  (0.000 ns)
+	'add' operation 22 bit of DSP[30] ('add_ln886', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [30]  (2.100 ns)
+
+ <State 5>: 4.200ns
+The critical path consists of the following:
+	'add' operation 22 bit of DSP[30] ('add_ln886', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [30]  (2.100 ns)
+	'add' operation 23 bit of DSP[32] ('GRAY', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [32]  (2.100 ns)
+
+ <State 6>: 5.734ns
+The critical path consists of the following:
+	'add' operation 23 bit of DSP[32] ('GRAY', C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color_utils.hpp:886->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5594->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [32]  (2.100 ns)
+	fifo write operation ('write_ln553', C:/Xilinx/Vitis_Libraries/vision/L1/include\common/xf_structs.hpp:553->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5598->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) on port 'imgOutput0_data' (C:/Xilinx/Vitis_Libraries/vision/L1/include\common/xf_structs.hpp:553->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5598->C:/Xilinx/Vitis_Libraries/vision/L1/include\imgproc/xf_cvt_color.hpp:5622) [34]  (3.634 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

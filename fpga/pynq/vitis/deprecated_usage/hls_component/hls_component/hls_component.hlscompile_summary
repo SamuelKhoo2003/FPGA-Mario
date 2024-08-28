@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls_component.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/20/24 05:11:12",
+ "timestampMillis": "1514488642",
+ "buildStep": {
+  "cmdId": "1b1ad0b6-da57-4f06-83d0-85165f398224",
+  "name": "v++",
+  "logFile": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\logs\\hls_component.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config W:\\vitis_workspace\\ip24\\att4\\hls_component\\hls_config.cfg --work_dir hls_component ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "W:\\vitis_workspace\\ip24\\att4\\hls_component\\hls_config.cfg",
+   "--work_dir",
+   "hls_component"
+  ],
+  "iniFiles": [
+   {
+    "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_config.cfg",
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.cflags=-I C:/Xilinx/Vitis_Libraries/vision/L2/examples/cvtcolor/config -IC:/Xilinx/Vitis_Libraries/vision/L1/include -IW:/vitis_workspace/ip24/att4/hls_component/include -I ./ -D__SDSVHLS__ -std=c++14\nsyn.csimflags=-I C:/Xilinx/Vitis_Libraries/vision/L2/examples/cvtcolor/config -IC:/Xilinx/Vitis_Libraries/vision/L1/include -IW:/vitis_workspace/ip24/att4/hls_component/include -I ./ -D__SDSVHLS__ -std=c++14\ncsim.argv=C:/Xilinx/Vitis_Libraries/vision/data/128x128.png\ncsim.ldflags=-L C:/opencv/build/install/x64/mingw/lib -lopencv_imgcodecs490 -lopencv_imgproc490 -lopencv_calib3d490 -lopencv_core490 -lopencv_highgui490 -lopencv_flann490 -lopencv_features2d490\ncosim.argv=C:/Xilinx/Vitis_Libraries/vision/data/128x128.png\ncosim.ldflags=-L C:/opencv/build/install/x64/mingw/lib -lopencv_imgcodecs490 -lopencv_imgproc490 -lopencv_calib3d490 -lopencv_core490 -lopencv_highgui490 -lopencv_flann490 -lopencv_features2d490\nsyn.top=cvtcolor_og\nsyn.file=accel3.cpp\n"
+   }
+  ],
+  "cwd": "W:\\vitis_workspace\\ip24\\att4\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/20/24 05:11:12",
+ "timestampMillis": "1514488643",
+ "status": {
+  "cmdId": "1b1ad0b6-da57-4f06-83d0-85165f398224",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/20/24 05:11:19",
+ "timestampMillis": "1514496016",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cvtcolor_og",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "W:/vitis_workspace\\ip24\\att4\\hls_component\\accel3.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/20/24 05:11:19",
+ "timestampMillis": "1514496020",
+ "buildStep": {
+  "cmdId": "91167f36-e5c4-4790-8c7f-7d7ffd7107b8",
+  "name": "csynth_design",
+  "logFile": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls\\hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "W:\\vitis_workspace\\ip24\\att4\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/20/24 05:11:19",
+ "timestampMillis": "1514496021",
+ "status": {
+  "cmdId": "91167f36-e5c4-4790-8c7f-7d7ffd7107b8",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:11:19",
+ "timestampMillis": "1514496021",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:11:19",
+ "timestampMillis": "1514496021",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:11:19",
+ "timestampMillis": "1514496021",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:12:34",
+ "timestampMillis": "1514570710",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:12:34",
+ "timestampMillis": "1514570710",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:12:34",
+ "timestampMillis": "1514570711",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/20/24 05:12:34",
+ "timestampMillis": "1514570711",
+ "status": {
+  "cmdId": "91167f36-e5c4-4790-8c7f-7d7ffd7107b8",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/20/24 05:12:35",
+ "timestampMillis": "1514571229",
+ "status": {
+  "cmdId": "1b1ad0b6-da57-4f06-83d0-85165f398224",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:12:35",
+ "timestampMillis": "1514571265",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\reports\\v++_compile_hls_component_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/20/24 05:12:35",
+ "timestampMillis": "1514571265",
+ "report": {
+  "path": "W:/vitis_workspace\\ip24\\att4\\hls_component\\hls_component\\reports\\.db\\v++_compile_hls_component_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,6 @@
+*.vscode
+*.pio
+.obsidian
+*wifi_credentials.h
+/aws-server
+*.env
