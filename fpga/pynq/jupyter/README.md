@@ -1,7 +1,7 @@
 # Overlays Documentation
 - overlay3 - provided design + GPT Modified, DMA, using 14 bits buffer
 - overlay4 - provided design + GPT Modified , DMA, using 26 bits buffer
-- overlay5 - personal design, DMA 
+- overlay5 - personal design, DMA
 - overlay6 - first VDMA design
 - overlay7 - DMA without IP
 - overlay8 - overlay5, but using ap_axiu<32,0,0,0>, meaning no side-channel
