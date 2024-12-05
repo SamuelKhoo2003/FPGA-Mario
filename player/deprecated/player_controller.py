@@ -236,7 +236,6 @@ class TCPClient:
 
 
 # Game Main Frame
-# Note: We no longer listen to the PYNQ board, we only send data to the car
 while True:
     print("\nSelect an option:")
     print("1. Drive with Controller")

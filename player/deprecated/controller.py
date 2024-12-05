@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-'''
-This script controls a TCP client using Xbox controller input.
-'''
-
-__version__ = "0.1.0"
-__author__ = "Sanjit Raman"
-
-
 import time
 import socket
 import json
 import pygame
-import keyboard
 
 class Joystick:
     """

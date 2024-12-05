@@ -153,7 +153,7 @@ class WebSocketClient:
 
             i %= 220
 
-            running = joystick_obj.handle_events()  
+            running = joystick_obj.handle_events()
 
             x_axis, y_axis = joystick_obj.get_joystick_input(joystick)
 
